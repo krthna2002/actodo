@@ -9,8 +9,6 @@ import Sample from './components/sample';
 
 function App() {
 
-  //login 
-  // let [store,setStore] = useState("")
   let [state, setState] = useState(
     {
       userName: "",
@@ -43,14 +41,7 @@ function App() {
       }
     )
     )
-    // setStore(prev =>
-    // (
-    //   {
-    //     ...prev,
-    //     [name]: value.trim()
-    //   }
-    // )
-    // )
+    
   }
    
   function handleSubmit(e) {

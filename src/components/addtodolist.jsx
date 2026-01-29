@@ -1,20 +1,15 @@
-// import SideFooter from "./footer2"
-
-// import { useState } from "react"
 
 function AddTodolist(props) {
     console.log(props + "props")
     console.log(props.list + "......item")
     console.log(props.list.length + "......length")
     console.log(props.setItem + "props set item")
-    let getlist = props.list
     let setitem = props.setItem
     console.log(setitem + ".......setitem")
 
     return (
         <div className="bg-violet-500 rounded-md p-5 grow">
-            {/* <SideFooter></SideFooter> */}
-            {/* <> */}
+            
             <h1 className="font-semibold text-2xl my-2">Today's Activity</h1>
 
             {
@@ -34,7 +29,6 @@ function AddTodolist(props) {
                     ) : <h1>you Haven,t added anything yet..!</h1>
             }
 
-            {/* </> */}
 
         </div>
     )

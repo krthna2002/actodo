@@ -3,9 +3,7 @@ function Signup(props) {
 
     const signupstate = props.signupstate
     const signupsetstate = props.signupsetstate
-    // console.log(signupsetstate)
-    // console.log(signupstate)
-
+  
     const data = props.data
     const setData = props.setData
 console.log(data+"data set")
